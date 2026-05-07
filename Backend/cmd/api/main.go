@@ -2,12 +2,17 @@ package main
 
 import (
 	"enrollapp/internal/db"
+	server "enrollapp/internal/server"
 	"fmt"
+	"log"
 )
 
 func main() {
 	db.ConnectDB()
-	//Vamos a probar poner datos en la tabla de careers_tb en la base de datos StudentsDB
+
+	if err := server.Start(); err != nil {
+		log.Fatal(err)
+	}
 
 	fmt.Println("Hello, World!")
 }
