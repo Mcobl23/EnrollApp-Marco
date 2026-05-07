@@ -10,5 +10,5 @@ func Start() error {
 		w.WriteHeader(http.StatusOK)
 		fmt.Fprintln(w, "ok")
 	})
-	return http.ListenAndServe(":8080", nil)
+	return http.ListenAndServe("localhost:8080", nil)
 }
