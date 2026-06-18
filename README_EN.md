@@ -47,7 +47,7 @@ Before you begin, ensure you have the following installed:
 
 ---
 
-## ⚙️ System Configuration
+## System Configuration
 
 ### 1. Database & Environment Variables
 

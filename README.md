@@ -57,7 +57,7 @@ El Backend utiliza un archivo `.env` para conectarse a PostgreSQL, el cual no de
 DB_HOST=localhost
 DB_PORT=5432
 DB_USER=your_user
-DB_PASSWORD=tu_contraseña
+DB_PASSWORD=your_password
 DB_NAME=your_database
 ```
 
